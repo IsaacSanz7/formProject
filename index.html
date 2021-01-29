@@ -14,17 +14,17 @@
         <h3>PASSENGER TRAVEL FORM</h3>
         <h4>( * is required)</h4>
         <label for="firstName">First Name*</label>
-        <input type="text" value="" id="firstName" placeholder="First Name">
+        <input type="text" value="Isaac" id="firstName" placeholder="First Name">
         <label for="lastName">Last Name*</label>
-        <input type="text" value="" id="lastName" placeholder="Last Name">
+        <input type="text" value="Sanchez" id="lastName" placeholder="Last Name">
         <div class="col">
             <label for="DoB">Date of Birth*</label>
             <input type="date" value="1990-10-06" id="DoB" placeholder="MM/DD/YYYY" class="space">
         </div>
         <label for="departing">Departure City*</label>
-        <input type="text" value="" id="departing" placeholder="City, State (Phoenix, AZ)">
+        <input type="text" value="Phoenix" id="departing" placeholder="City, State (Phoenix, AZ)">
         <label for="arriving">Arrival City*</label>
-        <input type="text" value="" id="arriving" placeholder="City, State (Atlanta, GA)">
+        <input type="text" value="Hawaii" id="arriving" placeholder="City, State (Atlanta, GA)">
         <div class="col">
             <label for="leaveDate">Date leaving*</label>
             <input type="date" value="2021-01-27" name="leaveDate" id="leaveDate" placeholder="MM/DD/YYYY">
@@ -35,7 +35,7 @@
         </div>
         <div class="col space">
             <label for="bags" class="bags">How many bags?</label>
-            <input type="number" class="bags" name="bags" id="bags" placeholder="#" value="0">
+            <input type="number" class="bags" name="bags" id="bags" placeholder="#" value="2">
         </div>
         <label for="meal" class="lessspace">What kind of meal would you like?</label>
         <div class="col space">
@@ -84,7 +84,7 @@
     <div class="second-col">
         <div class="col space">
             <button id="print" onclick="search()">Search</button>
-            <input id="search" style="margin-left: 10px;" type="text" placeholder="first last">
+            <input id="search" style="margin-left: 10px;" type="text" placeholder="first last" value="Isaac">
             <p style="margin-left: 10px;">Sort By:</p>
             <select style="margin-left: 10px;" name="users" id="dropDown">
                 <option value="id">ID</option>
@@ -141,7 +141,7 @@
  
     </div>
  
-    <script src="list.js"></script>
+    <script src="style.js"></script>
 </body>
  
 </html>
